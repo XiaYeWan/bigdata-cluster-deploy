@@ -12,7 +12,7 @@
 </p>
 
 > 🎯 3 台 CentOS 7 虚拟机，一键部署 11 个大数据组件，覆盖完整离线数仓技术栈。  
-> 🔧 附 10 个真实排错案例 + 6 个 Shell 自动化脚本，可直接写入简历。
+> 🔧 附 10 个真实排错案例 + 6 个 Shell 自动化脚本。
 
 ---
 
@@ -379,25 +379,28 @@ TypeError: a.replaceAll is not a function
 
 ---
 
-## 📌 可写入简历的技能点
+## 💡 项目亮点
 
-1. **Hadoop 生态全栈部署** — 3 台虚拟机搭建集群 (HDFS 3.3.6 + YARN + Hive 3.1.3 + Spark 3.4.3)
-2. **版本兼容性管理** — 解决 guava 冲突、JDK 路径兼容、Python 版本限制
-3. **生产环境故障排查** — ZooKeeper/Kafka 连通性诊断、防火墙规则排查、进程端口验证
-4. **MySQL 8.0 管理** — 密码策略绕过、元数据库初始化、权限配置
-5. **Kafka 集群部署** — 3 Broker 搭建、Topic 管理、ZooKeeper 连接诊断
-6. **Shell 脚本自动化** — 一键部署/启停/巡检脚本编写
-7. **CentOS 7 EOL 适配** — yum 源迁移、依赖冲突解决
-8. **浏览器兼容性排查** — 前端 JS 报错定位、hosts 映射调试
+本项目覆盖大数据工程师的核心技能栈，从底层集群搭建到上层调度可视化全链路贯通：
+
+| 技术领域 | 实践内容 |
+|----------|----------|
+| 🏗️ **集群架构** | 3 节点 CentOS 7 搭建 HDFS 3.3.6 + YARN + Hive 3.1.3 + Spark 3.4.3 全栈集群 |
+| 🔄 **版本兼容** | 解决 guava 冲突、OpenJDK RPM 路径适配、Python 3.6 天花板等兼容性难题 |
+| 🛡️ **故障诊断** | ZooKeeper 连接超时、Kafka 防火墙封锁、DolphinScheduler 前端 JS 兼容性等 10 个真实排错案例 |
+| 🗄️ **MySQL 管理** | 8.0 密码策略绕过、元数据库初始化、多用户权限配置 |
+| 📨 **消息队列** | Kafka 3 Broker 集群搭建、Topic 管理、ZooKeeper 协调 |
+| 🤖 **运维自动化** | 6 个 Shell 脚本覆盖部署/启停/巡检全流程，按依赖顺序编排 12 个服务 |
+| 📦 **EOL 适配** | CentOS 7 归档源切换、MySQL GPG Key 更新，保障已停服系统的可用性 |
 
 ---
 
-## 🔜 下一步计划
+## 🗺️ Roadmap
 
-1. **数仓分层建模** — MySQL 业务表 → DataX 同步 → Hive ODS → DWD → DWS → ADS
-2. **ETL 流程开发** — Hive SQL 清洗、汇总、宽表生成
-3. **DolphinScheduler 任务编排** — 每日定时跑 ETL
-4. **Superset 看板** — ADS 层数据可视化
+- [ ] **数仓分层建模** — MySQL 业务表 → DataX 同步 → Hive ODS → DWD → DWS → ADS
+- [ ] **ETL 流程开发** — Hive SQL 清洗、汇总、宽表生成
+- [ ] **DolphinScheduler 任务编排** — 每日定时跑 ETL
+- [ ] **Superset 看板** — ADS 层数据可视化
 
 ---
 
