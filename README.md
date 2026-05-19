@@ -12,7 +12,8 @@
 </p>
 
 > 🎯 3 台 CentOS 7 虚拟机，一键部署 11 个大数据组件，覆盖完整离线数仓技术栈。  
-> 🔧 附 10 个真实排错案例 + 6 个 Shell 自动化脚本。
+> 🔧 附 10 个真实排错案例 + 6 个 Shell 自动化脚本。  
+> 📝 **声明**：本项目为个人学习实践，所有组件运行于 VMware 虚拟机环境，非生产部署。
 
 ---
 
@@ -402,14 +403,14 @@ TypeError: a.replaceAll is not a function
 - [x] **DolphinScheduler 任务编排** — 每日定时跑 ETL
 - [x] **Superset 看板** — ADS 层数据可视化
 
----
-
 ## 🔗 关联项目
 
 | 项目 | 说明 |
 |------|------|
 | [bigdata-data-dev](https://github.com/XiaYeWan/bigdata-data-dev) | 数据采集与实时处理（Day2） |
 | [bigdata-data-warehouse](https://github.com/XiaYeWan/bigdata-data-warehouse) | 离线数仓ETL + DS调度 + Superset可视化（Day3） |
+
+---
 
 ## 📄 License
 
