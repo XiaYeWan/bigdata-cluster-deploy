@@ -402,6 +402,8 @@ TypeError: a.replaceAll is not a function
 - [x] **ETL 流程开发** — Hive SQL 清洗、汇总、宽表生成
 - [x] **DolphinScheduler 任务编排** — 每日定时跑 ETL
 - [x] **Superset 看板** — ADS 层数据可视化
+- [x] **Kafka+Flink 实时流** — Kafka Producer → Flink SQL 窗口聚合 → HDFS
+- [x] **Spark 批处理+ML** — ETL管道 / RFM九宫格 / 购物篮关联 / ALS推荐+KMeans聚类
 
 ## 🔗 关联项目
 
